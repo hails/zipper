@@ -1,0 +1,18 @@
+[package]
+name = "zipper"
+version = "0.1.0"
+authors = ["Allan Jorge"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+zip = { version = "0.5", default-features = false }
+wasm-bindgen = "*"
+# [[example]]
+# name = "wasm"
+# path = "src/lib.rs"
+# crate-type = ["cdylib"]
+js-sys  = "*"
