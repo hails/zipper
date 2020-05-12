@@ -1,0 +1,7 @@
+*
+!src/
+!src/**
+!.gitignore
+!Cargo.lock
+!Cargo.toml
+!index.html
